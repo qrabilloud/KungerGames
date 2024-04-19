@@ -1,0 +1,161 @@
+body {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  	background: url(../img/KGTempo.png);
+}
+
+#nedition {
+    width: 20%;
+  	font-size : 3vw;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#Texte_Finale {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+#Texte_1 {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 5vw;
+    text-align: center;
+    color: orangered;
+}
+
+#Texte_2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 3vw;
+    text-align: center;
+    color: darkred;
+}
+
+#Ecran_De_Combat {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 10%;
+}
+
+#Joueur_1 {
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-left: 2%;
+    font-size: 2vw;
+    font-family: Impact;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+#N1 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 15%;
+    float: left;
+    color: white;
+    background-color : transparent;
+    border : none;
+}
+
+#N2 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 15%;
+    float: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#Joueur_2 {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 2vw;
+    font-family: Impact;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+#Bas {
+    margin-top: 2%;
+    padding-bottom: 14%;
+}
+
+#Texte_KG {
+    margin-top: 3%;
+    margin-left: 1%;
+    font-size: 4vw;
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+#Aleatoire {
+    margin-top: 1%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 20%;
+    float: left;
+}
+
+#bouton_aleatoire {
+    margin-top: 3%;
+    margin-left: 12%;
+    font-size: 1.5vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#bouton_aleatoire:hover{
+    background-color : dimgrey;
+}
+
+#affichage_nombre {
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color : white;
+}
+
+#Cam_De_Kaiden {
+    margin-top: 1%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    width: 20%;
+    float: left;
+}

@@ -1,0 +1,886 @@
+body {
+    background: url(../img/KGTempo.png);
+}
+
+#nedition {
+    width : 20%;
+    text-align : center;
+    background-color : transparent;
+    color : white;
+    border : none;
+    font-weight : bold;
+  	font-size : 3vw;
+}
+
+#Districts {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%; /* J'ai mis ça pour remplir l'espace que devraient prendre les districts */
+    margin-left: 2%;
+    width: 35%;
+    float: left;
+}
+
+#District_1 {
+    background-color: #8D0D18;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J0 {
+    background-color: #8D0D18;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J1 {
+    background-color: #8D0D18;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J2 {
+    background-color: #8D0D18;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J3 {
+    background-color: #8D420D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J4 {
+    background-color: #8D420D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J5 {
+    background-color: #8D420D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J6 {
+    background-color: #8D820D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J7 {
+    background-color: #8D820D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J8 {
+    background-color: #8D820D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_4 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J9 {
+    background-color: #588D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J10 {
+    background-color: #588D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J11 {
+    background-color: #588D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J12 {
+    background-color: #188D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J13 {
+    background-color: #188D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J14 {
+    background-color: #188D0D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_6 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J15 {
+    background-color: #0D8D42;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J16 {
+    background-color: #0D8D42;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J17 {
+    background-color: #0D8D42;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_7 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J18 {
+    background-color: #0D8D82;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J19 {
+    background-color: #0D8D82;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J20 {
+    background-color: #0D8D82;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_8 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J21 {
+    background-color: #0D588D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J22 {
+    background-color: #0D588D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J23 {
+    background-color: #0D588D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_9 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J24 {
+    background-color: #0D188D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J25 {
+    background-color: #0D188D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J26 {
+    background-color: #0D188D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_10 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J27 {
+    background-color: #420D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J28 {
+    background-color: #420D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J29 {
+    background-color: #420D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_11 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J30 {
+    background-color: #820D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J31 {
+    background-color: #820D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J32 {
+    background-color: #820D8D;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#District_12 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#J33 {
+    background-color: #8D0D58;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J34 {
+    background-color: #8D0D58;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J35 {
+    background-color: #8D0D58;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#J36 {
+    background-color: #512809;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+#droite {
+    margin-top: 2%;
+    margin-right: 2%;
+    padding-bottom: 5%;
+    width: 60%;
+    float: right;
+}
+
+#Logo_KG {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 22%;
+}
+
+#title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+  	width : 40%; 
+    float: left;
+    display: inline-block;
+}
+
+#title1 {
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+}
+#title2 {
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+}
+
+#picture {
+    display : inline-block;
+    width : 45%;
+    float : right;
+}
+
+#Combat_en_cours { /* J'aimerais que les 3 divisions : Combattant_1 ; VS ; Combattant_2 soient sur la même ligne*/
+    margin-top: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid white;
+}
+
+#Combattant_1 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    width: 35%;
+    display: inline-block;
+}
+
+#Infos_combattant_1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-size: 20px;
+    font-family: Impact;
+    text-align: center;
+    width: 60%;
+    float: left;
+    color: white;
+}
+
+#N1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    font-size: 25px;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 30%;
+    float: right;
+    color: white;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#N11 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    font-size: 25px;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 30%;
+    float: right;
+    color: white;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#VS {
+    font-size: 75px;
+    font-family: Impact;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    color: white;
+    vertical-align : top;
+}
+
+#Versus {
+    width: 90%;
+}
+
+#Combattant_2 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 2%;
+    width: 35%;
+    display: inline-block;
+}
+
+#Infos_combattant_2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    font-family: Impact;
+    text-align: center;
+    width: 60%;
+    float: right;
+    color: white;
+}
+
+#N2 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 30%;
+    float: left;
+    color: white;
+    background-color : transparent;
+    border : none;
+}
+
+#bas_droite {
+    margin-top: 2%;
+    padding-bottom: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#kill_feed {
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 5%;
+    width: 32%;
+    float: left;
+    color: white;
+}
+
+#division_type {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow-y: scroll;
+    max-height : 120px;
+}
+
+#J1_KF {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 35%;
+    float: left;
+}
+
+#infos1 {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+}
+
+#issue1 {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+}
+
+#epees_aleatoire {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 25%;
+    float: left;
+}
+
+#image_epees {
+    margin-top: 1%
+}
+
+#aleatoire_KF {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+}
+
+#J2_KF {
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 35%;
+    float: right;
+}
+
+#infos2 {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+}
+
+#issue2 {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+}
+
+#aleatoire {
+    margin-top: 1.5%;
+    padding-bottom: 2%;
+    margin-left: 1%;
+    width: 32%;
+    float: left;
+    color: white;
+}
+
+#bouton_lancer_la_game {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 45%;
+    float: left;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#bouton_lancer_la_game:hover {
+    background-color: dimgrey;
+}
+
+#bouton_choix_viewer {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 45%;
+    float: left;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#bouton_choix_viewer:hover {
+    background-color: dimgrey;
+}
+
+#bouton_aleatoire {
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 45%;
+    float: right;
+    background: transparent;
+    font-size : large;
+    border : none;
+    color: white;
+}
+
+#bouton_aleatoire:hover {
+    background-color: dimgrey;
+}
+
+
+#affichage_nombre {
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 40px;
+    font-family: Impact;
+    text-align: center;
+    width: 50%;
+    float: right;
+    color: white;
+}

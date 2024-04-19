@@ -1,0 +1,251 @@
+body {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    display: block;
+  	background: url(../img/KGTempo.png);
+}
+
+#Ecran_Combat {
+    display : block;
+    width : 100%;
+    margin-top : 2%;
+    margin-bottom : 5%;
+}
+
+#nedition {
+    width: 20%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+  	font-size : 3vw;
+    border: none;
+    font-weight: bold;
+}
+
+#District_1 {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+#D1 {
+    color : white;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom : 3%;
+}
+
+#A0 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#A1 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#A2 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Milieu {
+    width : 100%;
+}
+
+#Nombre_1 {
+    display: inline-block;
+    width: 20%;
+    vertical-align : top;
+    text-align : center;
+    margin-left : 4%;
+
+}
+
+#N1 {
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#N11 {
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#Nombre_2 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 4%;
+}
+
+#N2 {
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#N22 {
+    font-size: 2vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#Texte {
+    display : inline-block;
+    width : 51%;
+    vertical-align : top;
+    margin-top : 1%;
+}
+
+#Texte_Finale {
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    width : 100%;
+}
+
+#BO {
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    width : 100%;
+    margin-bottom : 2%;
+}
+
+#Score {
+    font-size: 3vw;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    width: 51%;
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+}
+
+#District_2 {
+    width: 20%;
+    display : inline-block;
+    margin-left : 2%;
+    margin-right : 2%;
+}
+
+#D2 {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#B0 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#B1 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#B2 {
+    font-size: 2vw;
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Bas {
+    display: block;
+    width : 100%;
+    margin-top : 2%;
+    margin-bottom : 2%;
+}
+
+#Texte_KG {
+    font-size: 4vw;
+    text-align: center;
+    width : 50%;
+    color: white;
+    display : inline-block;
+}
+
+#Aleatoire {
+    width: 30%;
+    display: inline-block;
+}
+
+#zone_bouton {
+    width : 100%;
+    text-align : center;
+    margin-bottom : 2%;
+}
+
+#bouton_aleatoire {
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#bouton_aleatoire:hover{
+    background-color : dimgrey;
+}
+
+#affichage_nombre {
+    font-size: 3vw;
+    font-family: Impact;
+    text-align: center;
+    color : white;
+}

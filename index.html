@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>KungerGames</title>
+    <link href="styles/index.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+    <div id="header"> <!--Notre header qui contient un titre et un texte-->
+        <div id="title">
+            <strong>KaidenHD</strong> <!--On met le titre en gras-->
+        </div>
+        <div id="subtitle">
+            <p>
+                Bienvenue sur le site du streamer Twitch KaidenHD ! C'est un plaisir de t'accueillir !
+            </p>
+        </div>
+    </div>
+    <div id="main"> <!--Notre principale division, le main-->
+        <div id="sidemenu"> <!--Un menu lateral-->
+            <div id="titlemenu"> <!--Le titre du menu-->
+                Menu principal
+            </div>
+            <ul id="listmenu"> <!--Les différentes propositions du menu avec des pages html et des liens hypertexte-->
+                <li><a href='index.html'>Accueil</a></li>
+                <li><a href='kungerGames.html'>KungerGames</a></li>
+                <li><a href='https://www.twitch.tv/kaidenhd'>Chaine Twitch de KaidenHD</a></li>
+                <li><a href='https://twitter.com/KaidenHD'>Compte Twitter de KaidenHD</a></li>
+            </ul>
+
+        </div>
+        <div id="centralpage"> <!--La page centrale, constituée de textes et de vidéo, séparée en deux parties : une en haut et une en bas-->
+            <div id="toppart"> <!--La partie du haut-->
+                <div id="maintext">
+                    <div id="twitch-embed"></div>
+				  	<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+						<script type="text/javascript">
+  						new Twitch.Player("twitch-embed", {
+    					channel: "kaidenhd",
+						width: 854,
+    					height: 480,
+  						});
+						</script>
+                <div id="blocvideo"> <!--Une div avec une vidéo et son titre-->
+                    <p id="videotitle">
+					  Planning de la semaine
+                    </p>
+                    <img id="video" src="img/planning.png" alt="Planning" />
+                </div>
+            </div>
+            <div id="bottompart"> <!--La partie du bas-->
+                <p>
+				  Actualités :
+				  Félicitations à l'équipe d'Onutrem et à KaidenHD pour leur victoire lors des Twitch Rivals
+				  FR sur Fall Guys ! L'argent récolté pendant cet évènement sera reversé à l'UNICEF. Merci à toutes celles et
+				  tous ceux qui ont apporté leur soutien durant le stream ! 
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div id="second"> <!--La division secondaire avec une image et un titre-->
+    </div>
+    <div id="footer"> <!--Le footer tout en bas de la page-->
+        <p>
+            L'ensemble de ce site a été réalisé par Q. Rabilloud, programmeur indépendant. Tous droits réservés.
+            L111-1, alinéa 1er, du Code de la propriété intellectuelle, le code et le contenu de ce site sont
+            l'exclusive propriété de l'auteur. Toute utilisation non autorisée sera passible de poursuites judiciaires.
+        </p>
+    </div>
+</body>
+</html>

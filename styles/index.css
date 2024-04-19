@@ -1,0 +1,149 @@
+body {
+    background: url(../img/KGTempo.png) repeat center top; /* On insère une image en fond d'écran depuis le dossier img */
+    margin-left: 2%;
+    margin-right: 2%; /*Le body a une marge à gauche de 2% et pareil à droite*/
+}
+
+#header {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#title {
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 1.5vw;
+    color : white;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#main {
+    margin-bottom: 5%;
+}
+
+#sidemenu {
+    width: 18%;
+    display: inline-block; /*La disposition est en ligne */
+    margin-right: 2%;
+    float: left; /*Le menu est placé à gauche de l'ecran*/
+}
+
+#titlemenu {
+    padding-bottom: 5%;
+    font-size: 2vw;
+    color : white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#listmenu {
+    list-style: none; /*Pas de puces pour les éléments de la liste */
+    width: 76%;
+    margin-left: 8%;
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+    #listmenu a {
+        font-size: 1vw; /*On formate chaque élément de la liste*/
+        line-height: 200%; /*La hauteur de ligne d'un élément est de 200%*/
+        display: block; /*Les éléments sont placés les uns au dessus des autres : disposition verticale*/
+        vertical-align: middle; /*Le texte est placé au centre verticalement pour chque élément*/
+        text-align: left; /*Le texte est aligné à gauche*/
+        text-decoration: none; /*Le texte n'est pas souligné*/
+        margin-bottom: 3%;
+        color: white;
+        border-bottom: 0.1vw solid #CCCCCC; /*Sous le texte il y a une ligne formée par des points gris*/
+    }
+
+        #listmenu a:hover, a:focus, a:active { /*Lorsque l'utilisateur sélectionne un élément, clique dessus ou passe dessus avec le curseur*/
+            color: darkblue; /*Le texte devient bleu*/
+            text-decoration: none;
+            background-color: dimgrey; /*Le fond devient gris foncé*/
+        }
+
+#centralpage {
+    display: inline-block;
+    width: 80%;
+}
+
+#toppart {
+}
+
+#maintext {
+    display: inline-block;
+    width: 48%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-size: 1vw;
+    color: white;
+}
+
+#blocvideo {
+    width: 46%;
+    float: right;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+#videotitle {
+    font-size: 1vw;
+    margin-bottom: 1%;
+    color: white;
+}
+
+#video {
+    width: 100%;
+}
+
+#bottompart {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    color: white;
+    font-size: 1vw;
+}
+
+#second {
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#picture {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+#footer {
+    color: white;
+    margin-bottom: 2%;
+    font-size: 0.8vw;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+    #footer p { /*On rapproche les paragraphes les uns des autres verticalement*/
+        margin-bottom: -3%;
+    }

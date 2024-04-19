@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>KungerGames</title>
+    <script type="text/javascript" src="scripts/fonctions.js"></script>
+	<link href="styles/kungerGames.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="Districts">
+        <div id="District_1">
+            <input id="J0" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J1" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J2" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_2">
+            <input id="J3" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J4" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J5" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_3">
+            <input id="J6" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J7" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J8" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_4">
+            <input id="J9" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J10" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J11" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_5">
+            <input id="J12" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J13" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J14" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_6">
+            <input id="J15" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J16" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J17" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_7">
+            <input id="J18" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J19" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J20" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_8">
+            <input id="J21" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J22" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J23" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_9">
+            <input id="J24" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J25" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J26" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_10">
+            <input id="J27" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J28" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J29" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_11">
+            <input id="J30" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J31" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J32" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <div id="District_12">
+            <input id="J33" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J34" type="text" value="" onclick="useFirstAidKit(event)"/>
+            <input id="J35" type="text" value="" onclick="useFirstAidKit(event)"/>
+        </div>
+        <input id="J36" type="text" value="Kaipitole" style="background-image: url('img/Kaipitole.png')"/>
+    </div>
+    <div id="droite">
+        <div id="title">
+            <div id="title1">
+                <strong>Kunger</strong>
+            </div>
+            <div id="title2">
+                <strong> Games </strong> <input type="number" name="nedition" id="nedition" required />
+            </div>
+        </div>
+        <div id="Logo_KG">
+            <img id="picture" src="img/Logo_HG.png" alt="Logo" />
+        </div>
+        <div id="Combat_en_cours">
+            <!--Faudra faire une condition si 1v2 ou non-->
+            <div id="Combattant_1">
+                <div id="Infos_combattant_1">
+                    <p id="pseudo1"></p>
+                    <p id="districtj1"></p>
+                    <p id="nkills1"></p>
+                </div>
+                <input type="number" size="3" value="0" min="1" max="100" name="nombre" id="N1" required />
+            </div>
+            <div id="VS">
+                <img id="Versus" src="img/versus.png" alt="VS" />
+            </div>
+            <div id="Combattant_2">
+                <div id="Infos_combattant_2">
+                    <p id="pseudo2"></p>
+                    <p id="districtj2"></p>
+                    <p id="nkills2"></p>
+                </div>
+                <input type="number" size="3" value="0" min="1" max="100" name="nombre" id="N2" required />
+            </div>
+        </div>
+        <div id="bas_droite">
+            <div id="kill_feed">
+                <!--ça sera un affichage dynamique ajoutant une division après chaque combat, je mets en suivant une division type-->
+                <div id="division_type">
+                
+                </div>
+            </div>
+            <div id="aleatoire">
+                <input type="button" id="bouton_lancer_la_game" value="Lancer la game" onclick="initialize()"/>
+                <input type="button" id="bouton_aleatoire" value="Lancer le combat" onclick="fight()" />
+                <input type="button" id="bouton_choix_viewer" value="Choisir les combattants" onclick="newRound()"/>
+                <div id="affichage_nombre">
+                    <p>  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

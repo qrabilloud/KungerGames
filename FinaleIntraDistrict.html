@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>KungerGames</title>
+    <script type="text/javascript" src="scripts/fonctions.js"></script>
+    <link href="styles/finaleIntraDistrict.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="Texte_Finale">
+        <div id="Texte_1">
+            <strong> FINALE </strong>
+        </div>
+        <div id="Texte_2">
+            <p>  </p> <!-- a completer bien entendu avec le bon numero de district -->
+        </div>
+    </div>
+    <div id="Ecran_De_Combat">
+        <div id="Joueur_1"></div>
+        <div id="Nombre_1">
+            <input type="number" size="3" value="0" min="1" max="100" name="nombre" id="N1" required />
+        </div>
+        <div id="Nombre_2">
+            <input type="number" size="3" value="0" min="1" max="100" name="nombre" id="N2" required />
+        </div>
+        <div id="Joueur_2">
+        </div>
+    </div>
+    <div id="Bas">
+        <div id="Texte_KG">
+            <strong> Kunger Games </strong> <input type="number" name="nedition" id="nedition" required />
+        </div>
+        <div id="Aleatoire">
+            <input type="button" id="bouton_aleatoire" value="Lancer la finale" onclick="intraDistrictFinal()" />
+            <div id="affichage_nombre">
+
+            </div>
+        </div>
+        <div id="Cam_De_Kaiden">
+            <!--Endroit qui sera cache par la cam de Kaiden-->
+        </div>
+    </div>
+</body>
+
+</html>
